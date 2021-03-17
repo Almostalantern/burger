@@ -1,3 +1,33 @@
-* {
-    background-color: papayawhip;
+body{
+    background:url('../images/Borgar.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.top{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.tbd{
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+.devoured{
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+.otraVez{
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+.addBurger{
+    color:white;
 }

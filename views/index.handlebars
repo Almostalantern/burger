@@ -1,14 +1,15 @@
-<h1>EAT-THAT-BURGER</h1>
+<div class="whole">
+<h1 class="top">EAT-THAT-BURGER</h1>
 
-<h2>Burgers available</h2>
-
+<h2 class="top">Burgers available</h2>
+<div class='tbd'>
 <ul>
   {{#each burger}}
   {{#unless this.devoured}}
-  <li>
+  <li style="list-style-type: none;">
     {{this.burger_name}}
 
-    <button class="devour_burger" value={{this.id}}>
+    <button class="btn btn-danger devour_burger" value={{this.id}}>
       {{#if devoured}}Can't re-eat a burger!{{else}}Devour!{{/if}}
     </button>
 
@@ -17,22 +18,23 @@
   {{/unless}}
   {{/each}}
 </ul>
+</div>
 
 
-<h2>Burgers devoured</h2>
-
+<h2 class="top">Burgers devoured</h2>
+<div class="devoured">
 <ul>
   {{#each burger}}
   {{#if this.devoured}}
-  <li>
+  <li style="list-style-type: none;">
     {{this.burger_name}}
 
   </li>
   {{/if}}
   {{/each}}
 </ul>
-
-
+</div>
+<div class="otraVez">
 <h2>Another burger?</h2>
 <form class="create-form">
 
@@ -41,5 +43,7 @@
     <input type="text" id="newBurger" name="name">
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button type="submit" class="btn btn-warning addBurger">Add Burger</button>
 </form>
+</div>
+</div>
