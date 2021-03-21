@@ -14,7 +14,7 @@
 
 
   # Description 
-  This is a silly little app that lets you pretend to eat wild and fantastic burgers. There are already some burgers available for you to DEVOUR, but you can unleash your creative side and come up with several burgers of your own! The app uses a database and handlebars to update the user interface on the fly and keep track of new burgers you create and which burgers have been devoured. Enjoy your meal :)
+  This is a slightly silly app that lets you pretend to eat wild and fantastic burgers. There are already some burgers available for you to DEVOUR, but you can unleash your creative side and come up with several burgers of your own! The app uses a database and handlebars to update the user interface on the fly and keep track of new burgers you create and which burgers have been devoured. Enjoy your meal :)
 
   # Installation Instructions
   Don't forget to NPM i 
