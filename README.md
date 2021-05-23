@@ -25,6 +25,13 @@
   # Testing Information
   N/A
 
+  # Screen Shots
+This code looks like this.
+![Screenshot1](../public/images/Burger1.png)
+
+The output looks like this. 
+![Screenshot](../public/images/Burger.png)
+
   # Contact Information
   Github:AlmostALantern
  
